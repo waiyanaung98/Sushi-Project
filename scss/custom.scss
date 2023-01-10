@@ -1,0 +1,90 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+@import "../node_modules/remixicon/fonts/remixicon.css";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+//bootstrap customize
+$font-family-sans-serif: Poppins;
+$navbar-nav-link-padding-x:1.5rem;
+
+$bg-body:hsl(19, 100%, 96%);
+
+$primary: hsl(19, 64%, 54%);
+$btn-padding-x: 2rem;
+$btn-padding-y:  0.9rem;
+$btn-border-radius: 10rem;
+
+
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+);
+
+
+//custom css
+.navbar-brand-logo{
+    height: 1.6rem;
+    
+    
+}
+
+.btn-primary{
+    color: red;
+}
+
+.body{
+  height: 3000px;
+}
+
+.cardsushi{
+  transform: translateY(-98deg);
+}
+
+#home{
+  position: relative;
+  
+}
+
+#home::before{
+  content: url(../assets/img/leaf-branch-2.png) ;
+  position: absolute;
+
+  transform: translateX(-10px) rotate(79deg);
+  width: 100;
+  opacity: 0.2;
+  top: 10px;
+}
+
+// #head::after{
+//   content: url(../assets/img/leaf-branch-2.png) ;
+//   position: absolute;
+
+//   transform: translateX(-72px) rotate(-79deg);
+//   width: 40;
+//   opacity: 0.2;
+//   bottom: 0;
+//   right: 0;
+//   overflow: hidden;
+// }
+
+@include media-breakpoint-up(sm) { 
+
+  
+ }
+
+
+
+
+
